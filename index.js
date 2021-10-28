@@ -3,7 +3,7 @@ const app = express();
 const nodemon = require('nodemon');
 app.use(express.json());
 
-const PORT = 1515;
+const PORT = 1000;
 
 let user = {
     username: "dogecoin",
